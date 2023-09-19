@@ -43,7 +43,7 @@ def read_file_and_process(wav_file):
 def resampler(input_file_path, output_file_path):
     command = (
         f"ffmpeg -hide_banner -loglevel panic -i {input_file_path} -ar 16000 -ac 1 -bits_per_raw_sample 16 -vn "
-        f"{output_file_path}"
+        f"{output_file_path} -y"
     )
     subprocess.call(command, shell=True)
 
@@ -80,7 +80,7 @@ def parse(index,audio_path):
     return output_str
 
 
-fileName = "assamees"
+fileName = "assamees_32gb_cpu_vakyansh"
 
 audioPath=[
     "assamees/assamees1.wav",
