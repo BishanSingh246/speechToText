@@ -3,7 +3,9 @@ datasets
 pyctcdecode 
 soundfile
 pandas
-https://github.com/kpu/kenlm/archive/master.zip
 torch
+torchvision 
+torchaudio
 sox
 scipy
+https://github.com/kpu/kenlm/archive/master.zip
