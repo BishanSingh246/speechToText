@@ -92,7 +92,7 @@ def runSTT(index,audio_path):
     data["Output Text"].append(output_str)
     data["Device"].append(device_id)
 
-fileName = "hindi_16gb_cpu_ai4bharat"
+fileName = "hindi_32gb_cpu_ai4bharat"
 
 audioPath=[
     "hindi/hindi1.wav",
