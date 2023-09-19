@@ -80,7 +80,7 @@ def parse(index,audio_path):
     return output_str
 
 
-fileName = "hindi"
+fileName = "hindi_16gb_cpu_vakyansh"
 
 audioPath=[
     "hindi/hindi1.wav",
