@@ -1,0 +1,12 @@
+transformers 
+datasets 
+pyctcdecode 
+soundfile
+pandas
+https://github.com/kpu/kenlm/archive/master.zip
+pyctcdecode
+soundfile
+torch
+transformers
+sox
+scipy
