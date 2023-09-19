@@ -92,7 +92,7 @@ def runSTT(index,audio_path):
     data["Output Text"].append(output_str)
     data["Device"].append(device_id)
 
-fileName = "odia_16gb_cpu_ai4bharat"
+fileName = "odia_32gb_cpu_ai4bharat"
 
 audioPath=[
     "odia/odia1.wav",
