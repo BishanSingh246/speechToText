@@ -12,10 +12,10 @@ This repository utilizes the ai4bharat and Vakyansh pre-trained models to conver
 
 
 ## Instruction
-To use this repository, follow these steps:
+1. To use this repository, follow these steps:
 - Git clone this repository in local machine.
-Install required modules from below command
+2. Install required modules from below command
 - pip install -r requirements.txt
-To run, pass the file name which file you want to run in below command.
+3. To run, pass the file name which file you want to run in below command.
 - python3 <filename>.py
 
