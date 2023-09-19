@@ -4,7 +4,7 @@ import torchaudio
 import torch
 from datasets import load_dataset
 
-from IPython.display import Audio, display
+# from IPython.display import Audio, display
 import sys
 import re
 import pandas as pd
@@ -33,7 +33,7 @@ def load_audio_from_file(file_path):
 """Load from file"""
 # audio_path = 'output_audio0.wav'
 # Specify the Hugging Face Model Id
-model_id = ai4bharat/indicwav2vec-odia
+model_id = "ai4bharat/indicwav2vec-odia"
 # Specify the Device Id on where to put the model
 device_id = "cuda" if torch.cuda.is_available() else "cpu"
 print("Device :", device_id)
@@ -92,7 +92,7 @@ def runSTT(index,audio_path):
     data["Output Text"].append(output_str)
     data["Device"].append(device_id)
 
-fileName = "odia"
+fileName = "odia_16gb_cpu_ai4bharat"
 
 audioPath=[
     "odia/odia1.wav",
