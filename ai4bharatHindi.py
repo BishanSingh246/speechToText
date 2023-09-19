@@ -4,7 +4,7 @@ import torchaudio
 import torch
 from datasets import load_dataset
 
-from IPython.display import Audio, display
+# from IPython.display import Audio, display
 import sys
 import re
 import pandas as pd
@@ -92,7 +92,7 @@ def runSTT(index,audio_path):
     data["Output Text"].append(output_str)
     data["Device"].append(device_id)
 
-fileName = "hindi"
+fileName = "hindi_16gb_cpu_ai4bharat"
 
 audioPath=[
     "hindi/hindi1.wav",
