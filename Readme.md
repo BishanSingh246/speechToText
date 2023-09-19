@@ -13,9 +13,9 @@ This repository utilizes the ai4bharat and Vakyansh pre-trained models to conver
 
 ## Instruction
 1. To use this repository, follow these steps:
-- Git clone this repository in local machine.
+```Git clone https://github.com/BishanSingh246/speechToText.git ```
 2. Install required modules from below command
-- pip install -r requirements.txt
+ ```pip install -r requirements.txt```
 3. To run, pass the file name which file you want to run in below command.
-- python3 <filename>.py
+```python3 <filename>.py```
 
